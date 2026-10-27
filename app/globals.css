@@ -60,3 +60,11 @@
 .rtl .back-btn { flex-direction: row-reverse; }
 .rtl .students-table { text-align: right; }
 .rtl .inline-form { flex-direction: row-reverse; }
+/* --- CORRECTION MOBILE : MENU DÉFILABLE --- */
+@media (max-width: 760px) {
+  .sidebar {
+    overflow-y: auto !important;
+    height: 100vh !important;
+    padding-bottom: 20px !important;
+  }
+}
